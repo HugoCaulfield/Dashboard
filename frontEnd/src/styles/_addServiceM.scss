@@ -1,0 +1,89 @@
+.greyBg{
+  color: white;
+  background-color: #373A47;
+}
+.listW {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  div {
+    flex-direction: column;
+    background-color: #EEEEEE;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      margin-bottom: 5%;
+      width: 175px;
+      height: 175px;
+    }
+  }
+}
+.listB {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  div {
+    margin: auto;
+  }
+}
+.listWidgets {
+  margin-top: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  p {
+    color: black;
+  }
+  div {
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 3%;
+    img {
+      margin-bottom: 5%;
+      width: 75px;
+      height: 75px;
+    }
+    input {
+      margin-bottom: 5%;
+      width: 90%;
+    }
+  }
+  .Weatherbg {
+    border: 1px solid black;
+    border-radius: 30px;
+    background-image: url('../assets/weatherBg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .LastFmbg {
+    border: 1px solid black;
+    border-radius: 30px;
+    background-image: url('../assets/musicBg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Nasabg {
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #24292E;
+  }
+  .Gmailbg {
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+  }
+}

@@ -1,0 +1,142 @@
+.weather {
+  color: white;
+  font-weight: 1000;
+  margin-bottom: 10%;
+  .container-fluid {
+    .col {
+      margin: auto;
+      margin-top: 5%;
+      background-image: url('../assets/weatherBg.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 1px solid black;
+      border-radius: 40px ;
+      max-width: 500px;
+      max-height: 600px;
+      min-width: 500px;
+      min-height: 600px;
+    }
+    margin-bottom: 3%;
+  }
+  .top {
+    display: flex;
+    flex-direction: row;
+    img {
+      margin-top: 3%;
+      width: 15%;
+      height: 15%;
+    }
+    h1 {
+      margin: auto;
+    }
+    .butt {
+      display: none;
+    }
+  }
+  .input-group {
+    padding-top: 3%;
+    margin: auto;
+    width: 70%;
+  }
+  .weatherFirst {
+    text-align: center;
+    p {
+      margin-top: 3%;
+    }
+    .body {
+      flex-direction: column;
+      text-align: center;
+      img {
+        width: 30%;
+      }
+      p {
+        font-size: 175%;
+      }
+    }
+    .bot {
+      display: flex;
+      flex-direction: column;
+      font-size: 125%;
+      div {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        p:nth-child(2) {
+          margin-left: auto;
+        }
+      }
+    }
+    .badCity {
+      border-color: red;
+      box-shadow: none;
+      &:focus {
+        border-color: red;
+      }
+    }
+  }
+
+  .weatherSecond {
+    text-align: center;
+    .hours {
+      margin-top: 25%;
+      display: flex;
+      flex-direction: row;
+      p {
+        margin: auto;
+      }
+    }
+    .images {
+      margin-top: 3%;
+      img {
+        width: 12.5%;
+      }
+    }
+    .temperature {
+      display: flex;
+      flex-direction: row;
+      margin-top: 3%;
+      p {
+        margin: auto;
+      }
+    }
+    .badCity {
+      border-color: red;
+      box-shadow: none;
+      &:focus {
+        border-color: red;
+      }
+    }
+  }
+
+  .weatherThird {
+    .days {
+      margin-top: 25%;
+      display: flex;
+      flex-direction: row;
+      p {
+        margin: auto;
+      }
+    }
+    .images {
+      img {
+        width: 20%;
+      }
+    }
+    .temperature {
+      display: flex;
+      flex-direction: row;
+      p {
+        margin: auto;
+      }
+    }
+    .badCity {
+      border-color: red;
+      box-shadow: none;
+      &:focus {
+        border-color: red;
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+.gmail {
+  color: black;
+  font-weight: 1000;
+  margin-bottom: 10%;
+  .container-fluid {
+    .col {
+      margin: auto;
+      margin-top: 5%;
+      background-color: white;
+      border: 1px solid black;
+      border-radius: 40px ;
+      max-width: 500px;
+      max-height: 600px;
+      min-width: 500px;
+      min-height: 600px;
+    }
+    margin-bottom: 3%;
+  }
+  .top {
+    display: flex;
+    flex-direction: row;
+    img {
+      margin-top: 3%;
+      width: 15%;
+      height: 15%;
+    }
+    h1 {
+      margin: auto;
+    }
+    .butt {
+      display: none;
+    }
+  }
+  .input-group {
+    padding-top: 3%;
+    margin: auto;
+    width: 70%;
+  }
+  .gmailFirst {
+    .body {
+      margin-top: 5%;
+      max-width: 470px;
+      max-height: 400px;
+      overflow-y: scroll;
+      font-weight: 100;
+    }
+  }
+  .gmailSecond {
+    .body {
+      margin-top: 5%;
+      max-width: 470px;
+      max-height: 400px;
+      overflow-y: scroll;
+      font-weight: 100;
+    }
+  }
+  .gmailThird {
+    font-weight: 100;
+    p {
+      margin-top: 2%;
+      text-align: center;
+    }
+    .auth-inner {
+      width: 400px;
+      background: #ffffff;
+      margin: auto;
+      margin-top: 3%;
+      .form-group:focus {
+        border-color: #167bff;
+        box-shadow: none;
+      }
+    }
+    .body {
+      width: 90%;
+      margin-top: 3%;
+      max-height: 100px;
+      overflow-y: scroll;
+    }
+  }
+}

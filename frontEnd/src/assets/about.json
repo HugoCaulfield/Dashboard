@@ -1,0 +1,52 @@
+{
+    "customer": {
+        "host": "0.0.0.0.0"
+    }, 
+    "server": {
+        "current_time": "date",
+        "services": [{
+            "name": "weather",
+            "widgets": [{
+                "name": "city_temperature",
+                "description": "Display temperature for a city",
+                "params": [{
+                    "name": "city",
+                    "type": "string"
+                }]
+            }]
+        }, {
+            "name": "last_fm",
+            "widgets": [{
+                "name": "chart_music",
+                "description": "Displaying the list of the trend music",
+                "params": [{
+                    "name": "country",
+                    "type": "string"
+                }, {
+                    "name": "tag",
+                    "type": "string"
+                }]
+            }]
+        }, {
+            "name": "nasa",
+            "widgets": [{
+                "name": "nasa_picture",
+                "description": "Displaying the list of different picture from NASA",
+                "params": [{
+                    "name": "date",
+                    "type": "string"
+                }]
+            }]
+        }, {
+            "name": "gmail",
+            "widgets": [{
+                "name": "gmail",
+                "description": "Send, receive, sort email from Gmail",
+                "params": [{
+                    "name": "date",
+                    "type": "string"
+                }]
+            }]
+        }]
+    }
+}

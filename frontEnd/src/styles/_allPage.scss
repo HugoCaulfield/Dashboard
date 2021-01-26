@@ -1,0 +1,424 @@
+.all {
+  font-weight: 1000;
+  color: white;
+  .addB {
+    position: fixed;
+    bottom: 7%;
+    right: 1%;
+    button {
+      border-radius: 20px;
+    }
+  }
+  .contain {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 6%;
+    .noServices {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      margin-top: -90px;
+      margin-left: -237px;
+      color: black;
+      width: 475px;
+      height: 120px;
+      background: #ffffff;
+      box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+      padding: 40px 55px 45px 55px;
+      border-radius: 15px;
+      transition: all .3s;
+    }
+    .weatherW {
+      margin: auto;
+      margin-top: 5%;
+      background-image: url('../assets/weatherBg.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 1px solid black;
+      border-radius: 40px ;
+      max-width: 500px;
+      max-height: 600px;
+      min-width: 500px;
+      min-height: 600px;
+      margin-bottom: 3%;
+      .top {
+        display: flex;
+        flex-direction: row;
+        img {
+          margin-top: 3%;
+          width: 15%;
+          height: 15%;
+        }
+        h1 {
+          margin: auto;
+        }
+      }
+      .input-group {
+        padding-top: 3%;
+        margin: auto;
+        width: 70%;
+      }
+      .weatherFirst {
+        text-align: center;
+        p {
+          margin-top: 3%;
+        }
+        .body {
+          flex-direction: column;
+          text-align: center;
+          img {
+            width: 30%;
+          }
+          p {
+            font-size: 175%;
+          }
+        }
+        .bot {
+          display: flex;
+          flex-direction: column;
+          font-size: 125%;
+          div {
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+            p:nth-child(2) {
+              margin-left: auto;
+            }
+          }
+        }
+        .badCity {
+          border-color: red;
+          box-shadow: none;
+          &:focus {
+            border-color: red;
+          }
+        }
+      }
+      .weatherSecond {
+        text-align: center;
+        .hours {
+          margin-top: 25%;
+          display: flex;
+          flex-direction: row;
+          p {
+            margin: auto;
+          }
+        }
+        .images {
+          margin-top: 3%;
+          img {
+            width: 12.5%;
+          }
+        }
+        .temperature {
+          display: flex;
+          flex-direction: row;
+          margin-top: 3%;
+          p {
+            margin: auto;
+          }
+        }
+        .badCity {
+          border-color: red;
+          box-shadow: none;
+          &:focus {
+            border-color: red;
+          }
+        }
+      }
+      .weatherThird {
+        .days {
+          margin-top: 25%;
+          display: flex;
+          flex-direction: row;
+          p {
+            margin: auto;
+          }
+        }
+        .images {
+          img {
+            width: 20%;
+          }
+        }
+        .temperature {
+          display: flex;
+          flex-direction: row;
+          p {
+            margin: auto;
+          }
+        }
+        .badCity {
+          border-color: red;
+          box-shadow: none;
+          &:focus {
+            border-color: red;
+          }
+        }
+      }
+    }
+    .lastFmW {
+      margin: auto;
+      margin-top: 5%;
+      background-image: url('../assets/musicBg.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 1px solid black;
+      border-radius: 40px ;
+      max-width: 500px;
+      max-height: 600px;
+      min-width: 500px;
+      min-height: 600px;
+      .top {
+        text-align: center;
+        margin-top: 3%;
+        display: flex;
+        flex-direction: row;
+        img {
+          margin: 5%;
+          width: 5%;
+          height: 5%;
+        }
+        h1 {
+          margin: auto;
+        }
+      }
+      .input-group {
+        padding-top: 3%;
+        margin: auto;
+        width: 70%;
+      }
+      .lastFmFirst {
+        text-align: center;
+        .body {
+          display: flex;
+          flex-direction: column;
+          .name {
+            margin-top: 5%;
+            font-size: 300%;
+          }
+          .stats {
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            div:nth-child(1) {
+              margin-right: 25%;
+            }
+          }
+          .similar {
+            width: 90%;
+            margin: auto;
+            margin-left: 50%;
+            transform: translateX(-30%);
+            display: flex;
+            flex-direction: row;
+            div:nth-child(1) {
+              margin-right: 10%;
+            }
+          }
+        }
+        .badInput {
+          border-color: red;
+          box-shadow: none;
+          &:focus {
+            border-color: red;
+          }
+        }
+      }
+      .lastFmSecond {
+        .body {
+          display: flex;
+          flex-direction: row;
+          margin-top: 5%;
+          margin-right: 5%;
+          div {
+            margin-left: auto;
+          }
+        }    
+        .badInput {
+          border-color: red;
+          box-shadow: none;
+          &:focus {
+            border-color: red;
+          }
+        }
+      }
+      .lastFmThird {
+        .body {
+          margin-top: 6%;
+          margin-left: 18%;
+        }
+        .badInput {
+          border-color: red;
+          box-shadow: none;
+          &:focus {
+            border-color: red;
+          }
+        }
+      }
+    }
+    .nasaW {
+      margin-bottom: 5%;
+      margin: auto;
+      margin-top: 5%;
+      background-color: #24292E;
+      border: 1px solid black;
+      border-radius: 40px ;
+      max-width: 500px;
+      max-height: 600px;
+      min-width: 500px;
+      min-height: 600px;
+      .top {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        img {
+          width: 20%;
+          height: 20%;
+        }
+        h1 {
+          margin: auto;
+        }
+      }
+      .badDate {
+        border-color: red;
+        box-shadow: none;
+        &:focus {
+          border-color: red;
+        }
+      }
+      .date {
+        text-align: center;
+      }
+      .nasaFirst {
+        .body {
+          margin-top: 5%;
+          text-align: center;
+          img {
+            max-width: 450px;
+            max-height: 350px;
+            margin-bottom: 5%;
+          }
+        }
+        .badDate {
+          border-color: red;
+          box-shadow: none;
+          &:focus {
+            outline: none;
+            border-color: red;
+          }
+        }
+      }
+      .nasaSecond {
+        .body {
+          margin-top: 5%;
+          text-align: center;
+          max-width: 325px;
+          margin: auto;
+          margin-top: 3%;
+        }
+        .badDate {
+          border-color: red;
+          box-shadow: none;
+          &:focus {
+            outline: none;
+            border-color: red;
+          }
+        }
+      }
+      .nasaThird {
+        .body {
+          margin-top: 5%;
+          text-align: center;
+          max-width: 325px;
+          margin: auto;
+          margin-top: 3%;
+        }
+        .badDate {
+          border-color: red;
+          box-shadow: none;
+          &:focus {
+            outline: none;
+            border-color: red;
+          }
+        }
+      }
+    }
+    .gmailW {
+      color: black;
+      margin: auto;
+      margin-top: 5%;
+      background-color: white;
+      border: 1px solid black;
+      border-radius: 40px ;
+      max-width: 500px;
+      max-height: 600px;
+      min-width: 500px;
+      min-height: 600px;
+      margin-bottom: 3%;
+      .top {
+        display: flex;
+        flex-direction: row;
+        img {
+          margin-top: 3%;
+          margin-left: 3%;
+          width: 15%;
+          height: 15%;
+        }
+        h1 {
+          margin: auto;
+        }
+      }
+      .input-group {
+        padding-top: 3%;
+        margin: auto;
+        width: 70%;
+      }
+      .gmailFirst {
+        .body {
+          margin: auto;
+          margin-top: 5%;
+          max-width: 470px;
+          max-height: 400px;
+          overflow-y: scroll;
+          font-weight: 100;
+        }
+      }
+      .gmailSecond {
+        .body {
+          margin: auto;
+          margin-top: 5%;
+          max-width: 470px;
+          max-height: 400px;
+          overflow-y: scroll;
+          font-weight: 100;
+        }
+      }
+      .gmailThird {
+        font-weight: 100;
+        p {
+          margin-top: 2%;
+          text-align: center;
+        }
+        .auth-inner {
+          width: 400px;
+          background: #ffffff;
+          margin: auto;
+          margin-top: 3%;
+          .form-group:focus {
+            border-color: #167bff;
+            box-shadow: none;
+          }
+        }
+        .body {
+          width: 90%;
+          margin-top: 3%;
+          max-height: 100px;
+          overflow-y: scroll;
+        }
+      }
+    }
+  }
+}

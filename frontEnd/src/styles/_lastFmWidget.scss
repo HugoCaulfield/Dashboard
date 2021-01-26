@@ -1,0 +1,112 @@
+.lastFm {
+  color: white;
+  font-weight: 1000;
+  margin-bottom: 10%;
+  .container-fluid {
+    .col {
+      margin: auto;
+      margin-top: 5%;
+      background-image: url('../assets/musicBg.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: 1px solid black;
+      border-radius: 40px ;
+      max-width: 500px;
+      max-height: 600px;
+      min-width: 500px;
+      min-height: 600px;
+    }
+    margin-bottom: 3%;
+  }
+  .top {
+    text-align: center;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    img {
+      margin: 5%;
+      width: 5%;
+      height: 5%;
+    }
+    h1 {
+      margin: auto;
+    }
+  }
+  .butt {
+    display: none;
+  }
+  .input-group {
+    padding-top: 3%;
+    margin: auto;
+    width: 70%;
+  }
+  .lastFmFirst {
+    text-align: center;
+    .body {
+      display: flex;
+      flex-direction: column;
+      .name {
+        margin-top: 5%;
+        font-size: 300%;
+      }
+      .stats {
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        div:nth-child(1) {
+          margin-right: 25%;
+        }
+      }
+      .similar {
+        width: 100%;
+        margin: auto;
+        margin-left: 50%;
+        transform: translateX(-30%);
+        display: flex;
+        flex-direction: row;
+        div:nth-child(1) {
+          margin-right: 10%;
+        }
+      }
+    }
+    .badInput {
+      border-color: red;
+      box-shadow: none;
+      &:focus {
+        border-color: red;
+      }
+    }
+  }
+  .lastFmSecond {
+    .body {
+      display: flex;
+      flex-direction: row;
+      margin-top: 5%;
+      margin-right: 5%;
+      div {
+        margin-left: auto;
+      }
+    }    
+    .badInput {
+      border-color: red;
+      box-shadow: none;
+      &:focus {
+        border-color: red;
+      }
+    }
+  }
+  .lastFmThird {
+    .body {
+      margin-top: 6%;
+      margin-left: 18%;
+    }
+    .badInput {
+      border-color: red;
+      box-shadow: none;
+      &:focus {
+        border-color: red;
+      }
+    }
+  }
+}
